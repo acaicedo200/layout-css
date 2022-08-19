@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+main,
+footer {
+    border: 1px solid blue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 91px;
+}
+
+#cabezera {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    border: 1px solid blue;
+}
+
+main {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30rem;
+}
+
+aside,
+div,
+aside {}
+
+#index {
+    width: 12rem;
+}
+
+#shop {
+    width: 40rem;
+}
+
+#article {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+}
+
+#nav {
+    justify-content: flex-start;
+    display: flex;
+    margin: 1px;
+    height: 3rem;
+}
+
+form {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid rgba(0, 0, 0, 0.562);
+}
+
+#buscador {
+    display: flex;
+    flex-grow: 1;
+}
+
+.icono {
+    color: #2c2d30;
+    justify-self: center;
+    font-size: 30px;
+    background-color: #7578832a;
+    align-items: center;
+    width: 50px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    border-right: 1px solid rgba(0, 0, 0, 0.562);
+}
+
+#product-container {
+    flex-grow: 1;
+    background: #1D202B;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 1px;
+    overflow: auto;
+    height: 500px;
+}
+
+.titulo {
+    display: flex;
+    height: 100%;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.contenedor-conciertos {
+    padding-block-end: 10px;
+    gap: 13px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 185px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 200px;
+    padding: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card .textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+}
+
+.banner ul li {
+    font-weight: bold;
+}
+
+.banner .boton {
+    background: #FFD600;
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+}
